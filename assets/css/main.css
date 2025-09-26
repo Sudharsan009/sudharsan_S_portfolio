@@ -1049,15 +1049,15 @@ section,
   padding: 30px;
 }
 
-@media (max-width: 575px) {
+@media (max-width: 992px) {
   .contact .info-wrap {
     padding: 20px;
   }
 }
 
-.contact .info-item {
+/* .contact .info-item {
   margin-bottom: 40px;
-}
+} */
 
 .contact .info-item i {
   font-size: 20px;
