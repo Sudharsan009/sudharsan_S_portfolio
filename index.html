@@ -63,7 +63,7 @@
       <ul>
         <li><a href="#hero" class="active"><i class="bi bi-house navicon"></i>Home</a></li>
         <li><a href="#about"><i class="bi bi-person navicon"></i> About</a></li>
-        <li><a href="#resume"><i class="bi bi-file-earmark-text navicon"></i> Resume</a></li>
+        <li><a href="#professional-background"><i class="bi bi-file-earmark-text navicon"></i> Professional Background</a></li>
         <li><a href="#portfolio"><i class="bi bi-images navicon"></i> Portfolio</a></li>
         <li><a href="#services"><i class="bi bi-hdd-stack navicon"></i> Services</a></li>
         <li><a href="#contact"><i class="bi bi-envelope navicon"></i> Contact</a></li>
@@ -74,18 +74,28 @@
 
   <main class="main">
 
-    <!-- Hero Section -->
-    <section id="hero" class="hero section dark-background">
+<!-- Hero Section -->
+<section id="hero" class="hero section dark-background">
+  <img src="assets/img/bg4.jpg" alt="" data-aos="fade-in" class="">
 
-      <img src="assets/img/bg4.jpg" alt="" data-aos="fade-in" class="">
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-        <!-- Updated hero content with Sudharsan's name and role -->
-        <h2>Sudharsan S</h2>
-        <p>I'm <span class="typed" data-typed-items="Flutter Developer, Mobile App Developer, Cross-platform Developer, Firebase Expert">Flutter Developer</span><span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span><span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span></p>
-      </div>
-
-    </section><!-- /Hero Section -->
+  <div class="container" data-aos="fade-up" data-aos-delay="100">
+    <!-- Hero content with Sudharsan's name and role -->
+    <h2>Sudharsan S</h2>
+    <p>I'm <span class="typed" data-typed-items="Flutter Developer, Mobile App Developer, Cross-platform Developer, Firebase Expert">Flutter Developer</span><span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span><span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span></p>
+    <!-- Updated resume button with white background, briefcase icon, and pulse animation -->
+    <a href="assets/resume/Sudharsan_S_Resume (1).pdf" download="Sudharsan_S_Resume.pdf" class="btn mt-3" style="background: #ffffff; color: #000000; padding: 14px 28px; border-radius: 10px; font-weight: 600; text-transform: uppercase; letter-spacing: 1px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); border: 1px solid #ccc; transition: all 0.3s ease;" onmouseover="this.style.background='#f0f0f0'; this.style.animation='pulse 1s infinite';" onmouseout="this.style.background='#ffffff'; this.style.animation='none';" aria-label="Download resume">
+      <i class="bi bi-briefcase-fill me-2"></i>Get My Resume
+    </a>
+    <!-- Inline CSS for pulse animation -->
+    <style>
+      @keyframes pulse {
+        0% { transform: scale(1); }
+        50% { transform: scale(1.1); }
+        100% { transform: scale(1); }
+      }
+    </style>
+  </div>
+</section><!-- /Hero Section -->
 
     <!-- About Section -->
     <section id="about" class="about section">
@@ -351,75 +361,55 @@
 
     </section><!-- /Skills Section -->
 
-    <!-- Resume Section -->
-    <section id="resume" class="resume section">
+  <!-- Professional Background Section -->
+<section id="professional-background" class="professional-background section">
+  <!-- Section title -->
+  <div class="container section-title" data-aos="fade-up">
+    <h2>Professional Background</h2>
+    <p>Embarking on a dynamic career in technology, I blend hands-on expertise in Flutter development with specialized certifications and a strong foundation in computer science education, delivering innovative solutions and driving professional excellence</p>
+  </div>
 
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Resume</h2>
-        <p>Professional journey in mobile app development with focus on Flutter framework, Firebase integration, and cross-platform solutions that deliver real business value.</p>
-      </div><!-- End Section Title -->
-
-      <div class="container">
-
-        <div class="row">
-
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-            <h3 class="resume-title">Summary</h3>
-
-            <div class="resume-item pb-0">
-              <!-- Updated summary with Sudharsan's information -->
-              <h4>Sudharsan S</h4>
-              <p><em>Flutter Developer with 1+ years of experience building cross-platform mobile apps using Dart, Flutter, and Firebase. Skilled in state management, REST APIs, and responsive UI design with a track record of improving operational efficiency.</em></p>
-              <ul>
-                <li>Ariyalur, Tamil Nadu, India</li>
-                <li>+91 9629548007</li>
-                <li>sudhanyogi9629@gmail.com</li>
-              </ul>
-            </div><!-- End Resume Item -->
-
-            <h3 class="resume-title">Education</h3>
-            <div class="resume-item">
-              <!-- Updated education information -->
-              <h4>B.E. Computer Science Engineering</h4>
-              <h5>2019 - 2023</h5>
-              <p><em>K.S.K College of Engineering & Technology, Anna University, Kumbakonam</em></p>
-              <p>Completed Bachelor's degree in Computer Science Engineering with focus on software development, algorithms, and modern programming practices.</p>
-            </div><!-- End Resume Item -->
-
-            <h3 class="resume-title">Certifications</h3>
-            <div class="resume-item">
-              <h4>Flutter Development</h4>
-              <h5>6-month program</h5>
-              <p><em>Elysium Academy, Coimbatore</em></p>
-              <p>Comprehensive Flutter development training covering mobile app development, state management, and Firebase integration.</p>
-            </div><!-- End Resume Item -->
-
-          </div>
-
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
-            <h3 class="resume-title">Professional Experience</h3>
-            <div class="resume-item">
-              <!-- Updated work experience -->
-              <h4>Flutter Developer</h4>
-              <h5>May 2024 – July 2025</h5>
-              <p><em>KreevTech Solution, Coimbatore</em></p>
-              <ul>
-                <li>Developed and maintained cross-platform mobile apps using Flutter and Dart</li>
-                <li>Implemented responsive UI and integrated third-party packages, boosting app performance and usability</li>
-                <li>Integrated Firebase services (Auth, Firestore, Cloud Messaging) and REST APIs, ensuring secure and scalable backends</li>
-                <li>Collaborated with cross-functional teams, achieving 100% sprint delivery within deadlines</li>
-                <li>Improved client operations by automating workflows, reducing manual effort by 40–50%</li>
-              </ul>
-            </div><!-- End Resume Item -->
-
-          </div>
-
-        </div>
-
+  <div class="container" data-aos="fade-up" data-aos-delay="100">
+    <!-- Work Experience Section -->
+    <div class="mb-5">
+      <h3 class="resume-title" style="color: #333; border-bottom: 2px solid #007bff; padding-bottom: 10px;">Work Experience</h3>
+      <div class="resume-item" style="background: #f8f9fa; padding: 20px; border-radius: 8px;">
+        <h4>Flutter Developer</h4>
+        <h5>May 2024 – July 2025</h5>
+        <p><em>KreevTech Solution, Coimbatore</em></p>
+        <ul>
+          <li>Developed and maintained cross-platform mobile apps using Flutter and Dart</li>
+          <li>Implemented responsive UI and integrated third-party packages to enhance performance</li>
+          <li>Integrated Firebase (Auth, Firestore, Messaging) and REST APIs for secure, scalable backends</li>
+          <li>Collaborated with cross-functional teams, delivering 100% of sprints on time</li>
+          <li>Automated workflows, reducing manual effort by 40–50%</li>
+        </ul>
       </div>
+    </div>
 
-    </section><!-- /Resume Section -->
+    <!-- Certifications Section -->
+    <div class="mb-5">
+      <h3 class="resume-title" style="color: #333; border-bottom: 2px solid #007bff; padding-bottom: 10px;">Certifications</h3>
+      <div class="resume-item" style="background: #f8f9fa; padding: 20px; border-radius: 8px;">
+        <h4>Flutter Development</h4>
+        <h5>Sep 2023 - Feb 2024</h5>
+        <p><em>Elysium Academy, Coimbatore</em></p>
+        <p>Comprehensive training in Flutter, state management, and Firebase integration.</p>
+      </div>
+    </div>
+
+    <!-- Education Section -->
+    <div class="mb-5">
+      <h3 class="resume-title" style="color: #333; border-bottom: 2px solid #007bff; padding-bottom: 10px;">Education</h3>
+      <div class="resume-item" style="background: #f8f9fa; padding: 20px; border-radius: 8px;">
+        <h4>B.E. Computer Science Engineering</h4>
+        <h5>2019 - 2023</h5>
+        <p><em>K.S.K College of Engineering &amp; Technology, Anna University, Kumbakonam</em></p>
+        <p>Focused on software development, algorithms, and modern programming practices.</p>
+      </div>
+    </div>
+  </div>
+</section><!-- /Professional Background Section -->
 
     <!-- Portfolio Section -->
     <section id="portfolio" class="portfolio section light-background">
